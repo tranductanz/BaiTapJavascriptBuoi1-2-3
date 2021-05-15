@@ -1,7 +1,9 @@
 /*
-Nhập 3 môn và điểm chuẩn, loại, khu vực;
-
-Tính đậu rớt
+input :Nhập 3 môn và điểm chuẩn, loại, khu vực;
+process :   làm 1 function để tìm ra được kí tự "A", "B" và "C" tương ứng với 0.5-1-2 điểm
+            làm 1 function đẻ xuất ra được diểm của khu vực
+            làm 1 function main tổng hợp và gán những params đã cho vào để xét điểm
+output :Tính đậu rớt
 
 */
 
@@ -80,7 +82,9 @@ function calcAreaGrade(area) {
 
 
  /*
- Tính tiền điện tiêu thụ
+ input: cho điện sử dụng và công thức điện
+ process : khai báo các biến input cho sẵn, sử dụng if-else theo công thức đã cho sẵn để tính tổng tiền
+ output :Tính tiền điện tiêu thụ
  */
 
 function calcElectricityBill() {
@@ -117,6 +121,7 @@ input: cho tổng thu nhập năm, số người phụ thuộc
 với công thức 
 Thu nhập chịu thuế  = Tổng thu nhập năm - 4tr - Số người phụ thuộc * 1.6tr
 
+process : khai báo biến bên input, sử dụng if-else để tìm ra tổng thuế (totalTax) 
 
 output: tính thuế thu nhập cá nhân theo % thuế suất
 */
@@ -148,7 +153,7 @@ function calcPersonalTax(){
         totalTax = taxIncome * 0.3;
     }
     else if(taxIncome > 960){
-        totalTax = taxIncome * 0.35;ß
+        totalTax = taxIncome * 0.35;
     }
 
     document.getElementById("taxIncome").innerHTML = taxIncome;
@@ -161,7 +166,10 @@ function calcPersonalTax(){
 
 
 /*
-input : 
+input : cho cổng kết nối, kênh kết nối, phí thuê;
+process :   khai báo các biến bên input, sau đó sử dụng event onChange() để đáp ứng được yêu cầu của đề bài
+            đó là tick vào doanh nghiệp thì hỏi doanh nghiệp bao nhiêu cổng kết nối, sử dụng if-else áp giá công thức;
+output: tính giá tiền cần thiết
 */
 function myFunction() {
     document.getElementById("channel").innerHTML = "Bạn cần thuê bao nhiêu cổng kết nối";

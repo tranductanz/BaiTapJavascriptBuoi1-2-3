@@ -1,5 +1,6 @@
 /*
 input: nhập vào 3 số nguyên
+process: tạo mảng array[num1-2-3] để có thể sử dụng hàm sort();
 outout: viết xuất 3 số theo thứ tự tăng dần
 */
 
@@ -16,7 +17,9 @@ function sortNum(){
 
 
 /*
-Hỏi ai và đưa ra câu chào hợp lý
+input : Hỏi ai và đưa ra câu chào hợp lý
+process : tạo bảng chọn cho user chọn, sau đó switch case để có câu chào tương ứng
+output : chào người đó
 
 */
      function guestWho(){
@@ -51,7 +54,7 @@ Hỏi ai và đưa ra câu chào hợp lý
 
 /* 
 input : cho 2 số
-
+process : tạo biến oddNum và evenNum để phân biệt chẵn lẻ, sau đó if - else để count số chẵn và count số lẻ
 output: đếm chẵn lẻ
 */
 
@@ -92,8 +95,9 @@ function countNum(){
 
 
 /*
-cho a,b,c
-xét a,b,c sao và xem nó là tam giác gì
+input :cho a,b,c
+process : khai báo biến, sau đó if else theo công thức của các loại tam giác để in ra được tam giác cần tìm
+output: xét a,b,c sao và xem nó là tam giác gì
 
 */
 function calcTriangle(){

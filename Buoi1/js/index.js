@@ -1,7 +1,7 @@
 /* 1) Tính tiền lương nhân viên
  input lương 1 ngày 100k
  số ngày làm user nhập
-
+process : khai báo salary ngày, khai báo biến total có công thức, lấy value từ ô nhập của user rồi xuất
 output: tính tiền lương = lương 1 ngày * số ngày làm
 
 */
@@ -19,6 +19,7 @@ document.getElementById("totalSalary").innerHTML = total;
 
 /*
 input : user nhập 5 số
+process: lấy value từ 5 số của user trên HTML, tạo 1 biến averageNum để tính trung bình
 output : tính trung bình
 */
 
@@ -35,6 +36,7 @@ function calcAverage(){
 
 /*
 input USD = 23500 Vnđ
+process : khai báo biến usdMoney từ ô nhập HTML của user sau đó khai bao usd để có công thức
 output : quy đổi usd -> vnd
 */
 
@@ -47,8 +49,9 @@ function changeCurrency(){
 
 /* 
 input : chiều dài, rộng
-output : diện tích = dài * rộng
+process : diện tích = dài * rộng
           chu vi = (dài + rộng )*2
+output : tính diện tích và chu vi
 */
 
 function calcRectangle(){
@@ -65,6 +68,8 @@ function calcRectangle(){
 
 /*
      input : cho 1 số gồm 2 chữ số
+     process : khai báo biến, lấy số đó chia phần dư ( %  10) để lấy được số bên trái
+               và ( / 10 ) để lấy được số bên phải, sau đó tạo biến sum để lấy tổng
      output : tính tổng 2 ký số.
 */
 function calcSumEachNumber(){
